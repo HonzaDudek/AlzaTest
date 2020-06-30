@@ -1,0 +1,8 @@
+/*
+ * Utils
+ * - Contains utilities and helper function, which are used globally and modifies other parts of CSS
+ * - For example hidden, strikeThrough, textCenter,...
+ */
+
+@import 'utils.helperFunctions';
+@import 'utils.strikeThrough';

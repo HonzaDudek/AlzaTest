@@ -1,0 +1,13 @@
+@import '../../../styles/styles.scss';
+
+.topSection {
+  @include row(true);
+}
+
+.faqSection {
+  @include row(true);
+}
+
+.shareSection {
+  @include row(true);
+}

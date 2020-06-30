@@ -1,0 +1,26 @@
+.icon {
+  max-height: 24px;
+  max-width: 24px;
+}
+
+.left {
+  margin-right: 10px;
+}
+
+.right {
+  margin-left: 10px;
+}
+
+.small {
+  &.icon {
+    max-height: 20px;
+    max-width: 20px;
+  }
+}
+
+.large {
+  &.icon {
+    max-height: 30px;
+    max-width: 30px;
+  }
+}

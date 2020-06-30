@@ -1,0 +1,10 @@
+/*
+ * Settings
+ * - Just for CSS variables (SCSS in our case)
+ * - Biggest reach in CSS (global)
+ * - CSS are NOT allowed in this part!!!
+ */
+
+@import 'settings.colors';
+@import 'variables';
+@import 'settings.variables';

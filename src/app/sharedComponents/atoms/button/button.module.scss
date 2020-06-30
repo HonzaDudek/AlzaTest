@@ -1,0 +1,90 @@
+@import '../../../styles/settings/settings.scss';
+
+/* Styles for button */
+.button {
+  padding: 0 15px;
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 400;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  font-size: 13px;
+  height: 42px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  outline: none;
+
+  &.textCenter {
+    justify-content: center;
+  }
+
+  &.textRight {
+    justify-content: flex-end;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+}
+
+.small {
+  font-size: 13px;
+  height: 32px;
+}
+
+.large {
+  font-size: 20px;
+  height: 60px;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.green {
+  background-color: $color-green-primary;
+  color: $color-white;
+
+  &:hover:not(:disabled) {
+    background-color: $color-green-secondary;
+  }
+}
+
+.red {
+  background-color: $color-red-primary-light;
+  color: $color-white;
+
+  &:hover:not(:disabled) {
+    background-color: $color-red-primary;
+  }
+}
+
+.blue {
+  background-color: $color-blue-secondary;
+  color: $color-white;
+
+  &:hover:not(:disabled) {
+    background-color: $color-blue-secondary-darker;
+  }
+}
+
+.grey {
+  background-color: $color-grey-1;
+  color: $color-grey-6;
+
+  &:hover:not(:disabled) {
+    background-color: $color-grey-2;
+  }
+}
+
+.white {
+  background-color: $color-white;
+  color: $color-grey-6;
+
+  &:hover:not(:disabled) {
+    background-color: $color-grey-1;
+  }
+}

@@ -1,0 +1,46 @@
+@import '../../../../styles/settings/settings.scss';
+@import '../../../../styles/tools/tools.scss';
+@import '../../../../styles/utils/utils.scss';
+
+.groupCnt:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.infoText {
+  padding-bottom: 1rem;
+}
+
+.shareInfo {
+  padding: 10px 0 15px 0;
+  display: flex;
+  justify-content: space-between;
+
+  .people {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+  }
+}
+
+.productInfo {
+  display: flex;
+  justify-content: space-between;
+
+  .priceCnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+
+    .comparePrice {
+      @extend %strikethrough;
+    }
+
+    .price {
+      color: $color-red-price;
+      font-weight: bold;
+    }
+  }
+}

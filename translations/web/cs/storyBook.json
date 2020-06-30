@@ -1,0 +1,8 @@
+{
+  "Translation hook": "Toto je báječný translation hook",
+  "Render prop": "Překlad s hookem propsaným přes props",
+  "<0>Trans component</0>": "<0>Parádní překlad pomocí Trans Component</0>",
+  "<0><0>Trans component<0> with span inside</0>": "<0><0>Parádní</0> překlad pomocí trans komponenty a vnořeného HTML</0>",
+  "HoC translation": "Použití překladu a funkce t přes HoC",
+  "Some plurals": "{componentCount,plural, =0 {žádná komponenta} one {1 komponenta} few {{componentCount} komponenty} other {{componentCount} komponent}}"
+}

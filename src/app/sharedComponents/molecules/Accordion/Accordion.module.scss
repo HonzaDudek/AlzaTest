@@ -1,0 +1,73 @@
+@import '../../../styles/settings/settings';
+
+.accordion {
+  box-sizing: border-box;
+  background-color: $color-white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.26);
+  border-radius: 4px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-primary;
+  margin: 0 auto 10px;
+
+  @media screen and (min-width: 1280px ) {
+    &:hover {
+      background-color: $color_grey-1;
+    }
+  }
+}
+
+
+
+.accordionCheckbox {
+  display: none;
+}
+
+.accordionCheckbox:checked {
+  ~ .content {
+    font-size: 14px;
+    line-height: 21px;
+    max-height: none;
+    padding: 10px 15px 10px 45px;
+    color: $color-grey-5;
+    background-color: $color-white;
+
+  }
+  ~ .title {
+    background-color: $color-white;
+
+    svg {
+      transform: rotate(360deg);
+      path {
+        fill: $color-blue-secondary;
+      }
+    }
+  }
+}
+
+.content {
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.title {
+  box-sizing: border-box;
+  padding: 10px 15px;
+  width: 100%;
+  margin: 0; // Need reset because of global styles for label
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+    svg {
+      margin-right: 10px;
+      transform: rotate(180deg);
+      path {
+          fill: $color-blue-primary;
+      }
+  }
+}

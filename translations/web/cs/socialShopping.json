@@ -1,0 +1,23 @@
+{
+  "open social shopping": "Týmový nákup",
+  "SocialShoppingTogglePanel_HeaderFirst": "Novinka!",
+  "SocialShoppingTogglePanel_HeaderSecond": "Koupit týmově",
+  "SocialShoppingTogglePanel_Body": "Sežeňte další kupce a všichni dostanete slevu",
+  "SocialShoppingTogglePanel_BodyPriceFrom": "od",
+  "SocialShoppingShare_Error": "Nastala chyba při načítání",
+  "SocialShoppingShare_Error_Reload": "Načíst znova",
+  "SocialShoppingShare_Title": "Sdílejte slevu",
+  "SocialShoppingShare_Takeover_Info": "Až vás bude dostatek, můžete si zboží převzít.",
+  "SocialShoppingShare_ShareBtn": "Sdílet slevu",
+  "SocialShoppingShareDialog_Title": "Sdílet",
+  "SocialShoppingShareDialog_CopyLinkBtn": "Zkopírovat odkaz",
+  "SocialShoppingGroupStatus_PlacesLeft": "{count, plural, one {Zbývá jedno místo} few {Zbývají {count} místa} other {Zbývá {count} míst}",
+  "SocialShoppingGroupDetail_Heading": "Připojte se k týmovému nákupu a ušetřete {discount}",
+  "SocialShoppingGroupDetail_ShareHeading": "Sdílejte nabídku",
+  "SocialShoppingGroupDetail_ShareText": "Víte o někom, kdo by mohl mít zájem? Určitě mu uděláte radost, když mu nabídku pošlete.",
+  "SocialShoppingGroupDetail_ShareButtonCopyText": "Kopírovat odkaz",
+  "SocialShoppingGroupDetail_TeamFaqHeading2": "Jak fungují týmové nákupy?",
+  "SocialShoppingGroupDetail_TeamFaqHeading3": "Často kladené dotazy",
+  "SocialShoppingGroupDialog_Cancel": "Zavřít",
+  "SocialShoppingGroupDialog_Submit": "Vložit do košíku"
+}

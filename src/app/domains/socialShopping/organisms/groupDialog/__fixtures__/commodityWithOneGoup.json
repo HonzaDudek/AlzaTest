@@ -1,0 +1,125 @@
+{
+  "self": {
+    "href": "http://localhost:52789/api/socialShopping/v1/commodities/5458864",
+    "appLink": "socialShoppingProduct"
+  },
+  "id": 5458864,
+  "img": "https://cdn.alza.cz/Foto/f6/PH/PHIFE967.jpg",
+  "discountPrice": "2 299,-",
+  "priceDifference": null,
+  "originalPrice": "2 599,-",
+  "name": "Philips Moisture Protect HP8281/00 ",
+  "specification": "Fén na vlasy s ionizátorem, s difuzérem, příkon 2300 W, ionizace a studený vzduch, počet rychlostí 3, počet teplot 3, difuzér, délka přívodního kabelu 2,5 m, barva bílá a růžová ",
+  "priceLevels": [
+    {
+      "priceText": "2 199,-",
+      "name": "Bude nás 5",
+      "priceLabel": "sleva 100,- pro každého",
+      "discountRate": "-4 %",
+      "totalPriceSaving": "Společně ušětříte 500,-",
+      "expirationDateText": "Na naplnění týmu máte 7 dní",
+      "expirationDate": 1592576685,
+      "onSubmit": {
+        "appLink": "basketAdd",
+        "name": "Vložit do košíku",
+        "form": {
+          "value": [
+            {
+              "name": "commodityId",
+              "value": 5458864,
+              "itemType": "integer",
+              "isHidden": true
+            },
+            {
+              "name": "count",
+              "value": 1.0,
+              "itemType": "decimal",
+              "isHidden": true
+            },
+            {
+              "name": "services",
+              "itemType": "set",
+              "isHidden": true
+            },
+            {
+              "name": "hooks",
+              "itemType": "set",
+              "isHidden": true
+            },
+            {
+              "name": "levelId",
+              "label": "levelId",
+              "value": 7,
+              "itemType": "integer",
+              "isHidden": true
+            }
+          ],
+          "rel": ["form"],
+          "href": "http://localhost:52789/api/basket/v1/socialShoppingItems"
+        }
+      }
+    }
+  ],
+  "url": "/philips-moisture-protect-hp8281-00-d5458864.htm",
+  "commodityDetailAction": {
+    "href": "http://localhost:52789/services/restservice.svc/v13/product/5458864",
+    "appLink": "catalogProductDetail",
+    "name": "Podrobnosti o zboží"
+  },
+  "texts": {
+    "productDetailTitle": "Sdílej a ušetři",
+    "productDetailDescription": "Najděte dostatek známých, kteří si chtějí zboží také koupit a získejte na něj všichni slevu.",
+    "productDetailPriceLabel": "Vyberte počet zájemců",
+    "productDetailPriceLabelDecorated": "počet zájemců",
+    "productDetailSelectLevelLabel": "Vybrat počet zájemců",
+    "faqTitle": "Často kladené dotazy",
+    "faq": [
+      {
+        "question": "Můžu si nákup rozmyslet a z týmu odstoupit?",
+        "answer": "TBD"
+      },
+      {
+        "question": "Co se stane, pokud se nenajde potřebný počet zájemců?",
+        "answer": "TBD"
+      },
+      { "question": "Proč je potřeba nákup zaplatit online?", "answer": "TBD" },
+      {
+        "question": "Lze Sdílej a ušetři kombinovat se slevovými šeky?",
+        "answer": "TBD"
+      },
+      {
+        "question": "Co když budu muset zboží reklamovat? Nebo ho vrátím do 14 dnů po nákupu?",
+        "answer": "TBD"
+      }
+    ],
+    "howToTitle": "Jak funguje Sdílej a ušetři?",
+    "howToTitleDecorated": "Sdílej a ušetři?",
+    "howTo": [
+      {
+        "description": "Vyberte počet zájemců, který seženete a tím i cenu, za kterou zboží koupíte.",
+        "decorated": "Vyberte počet zájemců, který seženete",
+        "image": "https://i.alza.cz/Styles/images/svg/socialShopping/icon-group.svg"
+      },
+      {
+        "description": "Vložte zboží do košíku a dokončete objednávku.",
+        "decorated": "dokončete objednávku.",
+        "image": "https://i.alza.cz/Styles/images/svg/socialShopping/icon-customer.svg"
+      },
+      {
+        "description": "Po nákupu se vám objeví odkaz k nabídce. Sdílejte ho a sežeňte zbytek zájemců.",
+        "decorated": "Sdílejte ho a sežeňte zbytek zájemců.",
+        "image": "https://i.alza.cz/Styles/images/svg/socialShopping/icon-shouting.svg"
+      },
+      {
+        "description": "Až vás bude dostatek, zboží vám doručíme.",
+        "decorated": "zboží vám doručíme.",
+        "image": "https://i.alza.cz/Styles/images/svg/socialShopping/icon-delivery.svg"
+      }
+    ]
+  },
+  "moreInfo": {
+    "href": "https://dev.alza.cz/art31632.htm",
+    "appLink": "article",
+    "name": "Více o Sdílej a ušetři"
+  }
+}

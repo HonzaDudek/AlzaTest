@@ -1,0 +1,8 @@
+{
+  "Translation hook": "This is some awesome translation hook",
+  "Some cool translation": "Shit its working",
+  "Render prop": "Translation with hook passed from prop",
+  "transComponent": "<0>Some cool</0> translation using Trans Component",
+  "HoC translation": "Using translation with HoC",
+  "Some plurals": "{componentCount,plural, =0 {no component} one {1 component} few {{componentCount} components} other {{componentCount} components}}"
+}

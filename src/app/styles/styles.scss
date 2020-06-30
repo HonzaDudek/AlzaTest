@@ -1,0 +1,12 @@
+/*
+ * Struktura stylů vycházející z ITCSS
+ * https://itcss.io/
+ * - Styly jsou aplikovány globálně a měly by se naimportovat do root komponenty
+ *      - V našem případě to momentálně bude do každé page komponenty
+ */
+
+@import 'settings/settings.scss';
+@import 'generic/generic.scss';
+@import 'objects/objects.scss';
+@import 'tools/tools.scss';
+@import 'utils/utils.scss';

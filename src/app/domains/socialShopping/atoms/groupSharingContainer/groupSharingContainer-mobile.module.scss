@@ -1,0 +1,11 @@
+@import '../../../../styles/settings/settings.scss';
+@import '../../../../styles/tools/tools.scss';
+@import '../../../../styles/utils/utils.scss';
+
+.container {
+  @include rounded_corners(4px);
+  border: 1px solid $color-grey-3;
+  padding: 1rem;
+  font-family: $font-family-main;
+  font-size: 13px;
+}

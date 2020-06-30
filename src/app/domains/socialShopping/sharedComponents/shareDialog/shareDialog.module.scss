@@ -1,0 +1,62 @@
+@import '../../../../styles/settings/settings.scss';
+@import '../../../../styles/tools/tools.scss';
+
+/* Sharing variables between CSS and JS */
+:export {
+  emailBgColor: $color-green-primary;
+}
+
+.container {
+  padding: 20px;
+}
+
+.title {
+  color: $color-blue-secondary;
+  text-align: center;
+  font-family: $font-family-main;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.desc {
+  @include rounded_corners(4px);
+  padding: 20px;
+  font-family: $font-family-main;
+  font-size: 13px;
+  background-color: $color-grey-0;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+
+  .img {
+    @include rounded_corners(4px);
+    background-color: $color-white;
+    max-height: 60px;
+    padding: 10px;
+  }
+
+  .text {
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.shareCnt {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+
+  button {
+    flex-grow: 1;
+  }
+}
+
+.shareLink {
+  @include rounded_corners(3px);
+  border: 1px solid $color-grey-3;
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}

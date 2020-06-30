@@ -1,0 +1,9 @@
+/*
+ * Generic
+ * - Layer which can contain CSS
+ * - Contains CSS which normalize all parts of page, most of the time some 3rd party CSS
+ * - For example box-sizing, reset, normalize,...
+ */
+
+@import 'generic.normalize';
+@import 'generic.reset';

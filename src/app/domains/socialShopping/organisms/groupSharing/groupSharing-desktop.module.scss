@@ -1,0 +1,64 @@
+@import '../../../../styles/settings/settings.scss';
+@import '../../../../styles/tools/tools.scss';
+@import '../../../../styles/utils/utils.scss';
+
+.groupCnt:not(:first-child) {
+  margin-top: 15px;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.errorCnt {
+  width: 230px;
+}
+
+.infoText {
+  padding-bottom: 20px;
+}
+
+.people {
+  width: 180px;
+}
+
+.btnCnt {
+  margin-top: 20px;
+}
+
+.productInfo {
+  display: flex;
+  justify-content: space-between;
+
+  .namePriceCnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 20px;
+    max-width: 140px;
+  }
+
+  .name {
+    color: $color-blue-alza;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+}
+
+.priceCnt {
+  .comparePrice {
+    @extend %strikethrough;
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+
+  .price {
+    color: $color-red-price;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
